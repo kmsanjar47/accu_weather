@@ -80,6 +80,7 @@ class HomePage extends StatelessWidget {
 
                           SizedBox(height:10),
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Image.asset("assets/images/windy.png"),
                               SizedBox(width: 8,),
@@ -87,6 +88,7 @@ class HomePage extends StatelessWidget {
                             ],),
                           SizedBox(height: 4,),
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
 
                             children: [
                               Image.asset("assets/images/hum.png"),
