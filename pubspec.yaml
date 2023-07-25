@@ -36,6 +36,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   google_fonts: ^5.1.0
+  location: ^5.0.1
+  provider: ^6.0.5
+  dio: ^5.3.0
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +66,10 @@ flutter:
     - assets/images/notification_bell.png
     - assets/images/
     - assets/images/location.png
+    - assets/images/back.png
+    - assets/images/settings.png
+    - assets/images/cloud.png
+    - assets/images/accu_weather.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
